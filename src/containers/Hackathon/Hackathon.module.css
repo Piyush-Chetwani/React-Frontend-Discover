@@ -1,0 +1,329 @@
+body {
+  background-color: #f4f5f6;
+}
+
+.filter1 {
+  margin-left: 15%;
+}
+
+.filter2 {
+  margin-left: 40%;
+}
+
+.filter3 {
+  margin-left: 65%;
+  margin-top: 2%;
+  margin-bottom: 70px;
+}
+
+option {
+  background-color:#f4f5f6;
+}
+
+option::after, option:selection, option:active {
+  background-color: #f4f5f6;
+}
+
+.selectdiv {
+  position: absolute;
+}
+
+.selectdiv:after {
+    content:url('../../assets/location.svg');
+    font: normal normal normal 17px/1 FontAwesome;
+    color: #0ebeff;
+    right: 11px;
+    top: 1px;
+    height: 34px;
+    padding: 12px 12px 0px 0px;
+    position: absolute;
+    pointer-events: none;
+}
+
+select::-ms-expand {
+display: none;
+}
+
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  margin: 5px 0px;
+  padding: 0px ;
+  padding-left: 9px;
+  padding-right: 35px;
+  font-size: 14px;
+  line-height: 1.75;
+  font-family: "Poppins";
+  color: black;
+  background-color: #ffffff;
+  background-image: none;
+  border: 0.5px solid black;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+.selectdivcate {
+  position: absolute;
+}
+
+.selectdivcate:after {
+    content:url('../../assets/Category.svg');
+    font: normal normal normal 17px/1 FontAwesome;
+    color: #0ebeff;
+    right: 11px;
+    top: 1px;
+    height: 34px;
+    padding: 12px 12px 0px 0px;
+    padding-top: 9px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.selectdivcate select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  margin: 5px 0px;
+  padding: 0px ;
+  padding-left: 10px;
+  padding-right: 42px;
+  font-size: 14px;
+  line-height: 1.75;
+  font-family: "Poppins";
+  color: black;
+  background-color: #ffffff;
+  background-image: none;
+  border: 0.5px solid red;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+.selectdivsort {
+  position: absolute;
+}
+
+.selectdivsort:after {
+    content:url('../../assets/sort.svg');
+    font: normal normal normal 17px/1 FontAwesome;
+    color: #0ebeff;
+    right: 11px;
+    top: 1px;
+    height: 34px;
+    padding: 12px 12px 0px 0px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.selectdivsort select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  margin: 5px 0px;
+  padding: 0px ;
+  padding-left: 10px;
+  padding-right: 35px;
+  font-size: 14px;
+  line-height: 1.75;
+  font-family: "Poppins";
+  color: black;
+  background-color: #ffffff;
+  background-image: none;
+  border: 0.5px solid red;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+
+.data {
+  display:flex;
+  justify-content: space-evenly;
+  flex: auto;
+  flex-direction: row;
+  flex-wrap:wrap;
+  flex-basis: 40%;
+  margin-left: 2%;
+  margin-right: 0%;
+}
+
+.App {
+  background-color: #f4f5f6;
+}
+
+.Cards {
+  width: 311px;
+  height: 445.4px;
+  box-shadow: 0 15px 17px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin-top: 5px;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.Pic {
+  margin-top: 1%;
+}
+
+.Block {
+  width: 341px;
+ height: 435.4px;
+ border-radius: 15px;
+ box-shadow: 0 15px 17px 0 rgba(0, 0, 0, 0.16);
+ background-color: #fb6304;
+ padding-top: 5px;
+ margin-top: 60px;
+ margin-bottom: 30px;
+ margin-right: 10%;
+}
+
+
+.on {
+   font-weight:bold;
+}
+
+.sp {
+  color: #fb6304;
+}
+
+.site {
+ width: 297px;
+ height: 45px;
+ border-radius: 6px;
+ border: solid 1px #fb6304;
+ background-color: #ffffff;
+ color: black;
+ float: left;
+ margin-top: 5%;
+ display: flex;
+
+}
+
+.visit {
+width: 35px;
+height: 20px;
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.25;
+letter-spacing: 6.53px;
+color: #fb6304;
+margin-left: 35%;
+margin-right: 3%;
+margin-top: 15px;
+}
+
+.visitLogo {
+  margin-left: 35px;
+  margin-top: 13px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .filter3 {
+     margin-left: 10%;
+     margin-top: 18%;
+     margin-bottom: 130px;
+  }
+  .filter1 {
+    margin-left: 10%;
+  }
+  .filter2 {
+    margin-left: 55%;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .App {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .Block {
+    width:320px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .Cards {
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-bottom: 2%;
+  }
+  .site {
+      width: 237px;
+      margin-left: 8%;
+  }
+  .visit {
+    margin-left: 30%;
+  }
+}
+
+
+
+@media screen and (max-width: 335px) {
+    .App {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .Block {
+      width:290px;
+      margin-top: 35px;
+      margin-bottom: 35px;
+    }
+    .Cards {
+      padding-left: 5px;
+      width: 285px;
+      padding-right: 0px;
+      margin-bottom: 2%;
+    }
+  }

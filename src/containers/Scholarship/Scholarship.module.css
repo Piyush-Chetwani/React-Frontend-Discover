@@ -1,0 +1,375 @@
+body {
+  background-color: #f4f5f6;
+}
+
+
+.filter1 {
+  margin-left: 15%;
+}
+
+.filter2 {
+  margin-left: 40%;
+}
+
+.filter3 {
+  margin-left: 65%;
+  margin-top: 2%;
+  margin-bottom: 70px;
+}
+
+option {
+  background-color:#f4f5f6;
+}
+
+option::after, option:selection, option:active {
+  background-color: #f4f5f6;
+}
+
+.selectdiv {
+  position: absolute;
+}
+
+.selectdiv:after {
+    content:url('../../assets/location.svg');
+    font: normal normal normal 17px/1 FontAwesome;
+    color: #0ebeff;
+    right: 11px;
+    top: 1px;
+    height: 34px;
+    padding: 12px 12px 0px 0px;
+    position: absolute;
+    pointer-events: none;
+}
+
+select::-ms-expand {
+display: none;
+}
+
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  margin: 5px 0px;
+  padding: 0px ;
+  padding-left: 9px;
+  padding-right: 35px;
+  font-size: 14px;
+  line-height: 1.75;
+  font-family: "Poppins";
+  color: black;
+  background-color: #ffffff;
+  background-image: none;
+  border: 0.5px solid black;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+.selectdivcate {
+  position: absolute;
+}
+
+.selectdivcate:after {
+    content:url('../../assets/Category.svg');
+    font: normal normal normal 17px/1 FontAwesome;
+    color: #0ebeff;
+    right: 11px;
+    top: 1px;
+    height: 34px;
+    padding: 12px 12px 0px 0px;
+    padding-top: 9px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.selectdivcate select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  margin: 5px 0px;
+  padding: 0px ;
+  padding-left: 10px;
+  padding-right: 42px;
+  font-size: 14px;
+  line-height: 1.75;
+  font-family: "Poppins";
+  color: black;
+  background-color: #ffffff;
+  background-image: none;
+  border: 0.5px solid red;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+.selectdivsort {
+  position: absolute;
+}
+
+.selectdivsort:after {
+    content:url('../../assets/sort.svg');
+    font: normal normal normal 17px/1 FontAwesome;
+    color: #0ebeff;
+    right: 11px;
+    top: 1px;
+    height: 34px;
+    padding: 12px 12px 0px 0px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.selectdivsort select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  margin: 5px 0px;
+  padding: 0px ;
+  padding-left: 10px;
+  padding-right: 35px;
+  font-size: 14px;
+  line-height: 1.75;
+  font-family: "Poppins";
+  color: black;
+  background-color: #ffffff;
+  background-image: none;
+  border: 0.5px solid red;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+
+.selectdiv:hover {
+  outline: none;
+}
+
+.data {
+  display:flex;
+  justify-content: space-around;
+  flex: auto;
+  flex-direction: row;
+  flex-wrap:wrap;
+  flex-basis: 40%;
+}
+
+.wholePage {
+  margin-top: 6%;
+  margin-bottom: 1%;
+}
+
+.Card {
+  border-radius: 15px;
+  box-shadow: 0 15px 17px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  width: 1000px;
+  height: 230px;
+  padding-left: 1%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+}
+
+.Top {
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+}
+
+.Text {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.66;
+  letter-spacing: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.Line {
+  border-left: 1px solid black;
+  height:80%;
+  float: left;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+
+.site {
+  width: 130px;
+ height: 40px;
+ border-radius: 6px;
+ border: solid 1px #fb6304;
+ background-color: #ffffff;
+ color: black;
+ float: left;
+ margin-top: 0;
+
+}
+
+.visit {
+width: 85px;
+height: 20px;
+font-size: 12px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.25;
+color: #fb6304;
+float: left;
+margin-left: 10%;
+margin-right: 0;
+padding-top: 1%;
+}
+
+.Amount {
+  float:left;
+  margin-left:2%;
+  width:22%
+}
+
+.Img {
+  width:100%;
+  padding-right: 1%;
+  margin-top: 13%;
+  height: 170px;
+}
+
+.Topic {
+  float:left;
+  width:37%;
+  margin-left: 1%;
+  float: left;
+  margin-top: -4px;
+  height: 106%;
+  overflow: hidden;
+}
+
+.location {
+  height: 100px;
+  overflow: hidden;
+
+}
+
+.mobile {
+  border-radius: 15px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  width: 320px;
+  height: 620px;
+  padding: 1%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.random {
+  float:left;
+  width:20%;
+}
+
+.mob {
+  width: 111%;
+}
+
+@media screen and (max-width: 1050px) {
+  .Card {
+    width: 910px;
+    height: 310px;
+    padding-right: 0;
+    padding-left: 4px;
+  }
+  .Amount {
+    margin-left: 3%;
+  }
+  .Wid {
+    width: 29%;
+  }
+  .Img {
+    padding-top: 12%;
+    width:100%;
+    height: 190px;
+    padding-right:7%;
+  }
+  .random {
+    width:25%;
+  }
+}
+
+
+
+@media screen and (max-width: 919px) {
+  .Card {
+  display: none;
+  }
+  .wholePage {
+    display: none;
+  }
+  .mobile {
+    margin-top: 10%;
+  }
+}
+
+
+@media screen and (min-width: 920px) {
+  .page {
+  display: none;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .mobile {
+    width: 390px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+.filter1 {
+  margin-left: 10px;
+}
+.filter2 {
+  margin-left: 125px;
+}
+.filter3 {
+  margin-left: 240px;
+}
+}
+
+@media screen and (max-width: 425px) {
+  .mobile {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .filter3 {
+     margin-left: 15%;
+     margin-top: 18%;
+     margin-bottom: 130px;
+  }
+  .filter1 {
+    margin-left: 10%;
+  }
+  .filter2 {
+    margin-left: 55%;
+  }
+}
+
+
+@media screen and (max-width: 321px) {
+  .mobile {
+    width:280px;
+  }
+}

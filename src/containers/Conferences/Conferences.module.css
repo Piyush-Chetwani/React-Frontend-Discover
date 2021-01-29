@@ -1,0 +1,283 @@
+
+body {
+  background-color: #f4f5f6;
+}
+
+.filter1 {
+  margin-left: 15%;
+}
+
+.filter2 {
+  margin-left: 40%;
+}
+
+option {
+  background-color:#f4f5f6;
+}
+
+.selectdiv {
+  position: absolute;
+}
+
+.selectdiv:after {
+    content:url('../../assets/location.svg');
+    color: red;
+    right: 11px;
+    top: 1px;
+    height: 34px;
+    padding: 12px 12px 0px 8px;
+    position: absolute;
+    pointer-events: none;
+}
+
+select::-ms-expand {
+display: none;
+}
+
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  margin: 5px 0px;
+  padding: 0px ;
+  padding-left: 10px;
+  padding-right: 35px;
+  font-size: 14px;
+  line-height: 1.75;
+  font-family: "Poppins";
+  color: black;
+  background-color: #ffffff;
+  background-image: none;
+  border: 0.5px solid red;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+option {
+  background-color:#f4f5f6;
+}
+
+.selectdivcate {
+  position: absolute;
+}
+
+.selectdivcate:after {
+    content:url('../../assets/sort.svg');
+    color: #0ebeff;
+    right: 11px;
+    top: 1px;
+    height: 34px;
+    padding: 2px 12px 0px 0px;
+    padding-top: 13px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.selectdivcate select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  margin: 5px 0px;
+  padding: 0px ;
+  padding-left: 10px;
+  padding-right: 45px;
+  font-size: 14px;
+  line-height: 1.75;
+  font-family: "Poppins";
+  color: black;
+  background-color: #ffffff;
+  background-image: none;
+  border: 0.5px solid red;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+
+.data {
+  display:flex;
+  justify-content: space-around;
+  flex: auto;
+  flex-direction: row;
+  flex-wrap:wrap;
+  margin-left: 2%;
+  margin-right: 0%;
+  flex-basis: 40%;
+  margin-bottom: 100px; 
+}
+
+.Card {
+  width: 550px;
+  height: 318px;
+  border-radius: 15px;
+  box-shadow: 0 15px 17px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-top: 0;
+}
+
+.Whole {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 4%;
+  margin-top: 8%;
+}
+
+.description {
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.66;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin-right: 3%;
+}
+
+.Topic {
+font-size: 24px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 0.05;
+letter-spacing: normal;
+text-align: left;
+color: #000000;
+padding-top: 5%;
+}
+
+.Photo {
+  width:37%;
+  height:100%;
+  float:left;
+}
+
+.Sub {
+   font-size: 16px;
+   font-weight: normal;
+}
+
+.buttonSite {
+  width: 140px;
+ height: 45px;
+ border-radius: 6px;
+ border: solid 1px #fb6304;
+ background-color: #ffffff;
+ color: black;
+ float: left;
+ margin-left: 15%;
+ margin-top: 20%;
+}
+
+.apply {
+width: 65px;
+height: 20px;
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.25;
+letter-spacing: 6.53px;
+color: #fb6304;
+float: left;
+margin-left: 16%;
+margin-right: 3%;
+}
+
+.mobile {
+  width: 320px;
+  height: 550px;
+  border-radius: 15px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+}
+
+.page {
+  margin-bottom: 7%;
+  margin-top: 9%;
+}
+
+.on {
+   font-weight:bold;
+   font-size: 15px;
+}
+
+.place {
+  color: #fb6304;
+}
+
+@media screen and (max-width: 1165px) {
+  .Card {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .Card {
+    width: 650px;
+  }
+  .buttonSite {
+    margin-top: 13%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .filter1 {
+    margin-left: 45px;
+  }
+  .filter2 {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .Card {
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .Card {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+.Whole {
+  display: none;
+  }
+}
+
+@media screen and (min-width: 550px) {
+.page {
+  display: none;
+}
+.mobile {
+  display: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .filter1 {
+    margin-left: 5%;
+  }
+  .filter2 {
+    margin-left: 55%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    padding-left: 2px;
+  }
+  .mobile {
+    width: 318px;
+  }
+}

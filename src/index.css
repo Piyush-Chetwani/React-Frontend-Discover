@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: "Poppins" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.button a {
+  appearance: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+.button {
+  appearance: none;
+  height: max-content;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 31px;
+  color: #ffffff;
+
+  box-shadow: 5px 5px 9px 0 rgba(251, 99, 4, 0.16);
+  background-color: #fb6304;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 0.5em 1em;
+  box-sizing: border-box;
+}

@@ -1,0 +1,168 @@
+.Nav {
+  height: 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.logo {
+  width: 45.5px;
+  height: 45.5px;
+  object-fit: contain;
+}
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: -15px;
+  margin-right: 20px;
+}
+.logoContainer div {
+  font-size: 30px;
+  font-weight: 700;
+}
+.routes {
+  display: flex;
+  font-size: 1.3em;
+  background-color: #fb6304;
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: -15px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 0 10px 20px 30px;
+  box-sizing: border-box;
+}
+.routes div {
+  color: #ffffff;
+  padding: 5px 20px;
+  display: block;
+}
+.loginBtn {
+  font-size: 1.5em;
+  margin-right: -50px;
+  color: #fb6304;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.routes a {
+  appearance: none;
+  text-decoration: none;
+  color: #000000;
+}
+.routes .loginBtn {
+  display: none;
+}
+
+.btn {
+  position: fixed;
+  border: none;
+  padding: 0;
+  right: 20px;
+  margin: 1.2em 0;
+  --space: 12px;
+  --height: 4px;
+  cursor: pointer;
+  width: 40px;
+  z-index: 20;
+  outline: none;
+}
+
+.btn::before,
+.btn::after {
+  display: inline-block;
+  content: "";
+  width: 50px;
+  position: absolute;
+  right: 0;
+  transition: margin-top 0.3s ease-in, transform 0.2s ease-out 0.3s;
+}
+
+.btn,
+.btn::before,
+.btn::after {
+  height: 0px;
+  border-width: calc(var(--height) / 2) 0;
+  border-color: black;
+  border-style: solid;
+  background-color: transparent;
+}
+
+.btn::before {
+  margin-top: calc(var(--space) * -1);
+}
+
+.btn::after {
+  margin-top: calc(var(--space) - var(--height));
+}
+.open {
+  border-color: 1px solid transparent;
+}
+.open::before,
+.open::after {
+  margin-top: 0;
+  border-color: #fb6304;
+  transform-origin: center;
+}
+.open {
+  border: 5px solid transparent;
+}
+.open::before {
+  transform: rotate(45deg);
+}
+
+.open::after {
+  transform: rotate(-45deg);
+}
+@media all and (max-width: 1090px) {
+  .Nav {
+    flex-direction: column;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-right: 0;
+  }
+  .routes {
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: 110vh;
+    background-color: #f3e8e2;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    box-sizing: border-box;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .line{
+    width: 50%;
+    border-top: 2px solid #ffffff;
+  }
+  .routes div {
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #fb6304;
+
+  }
+  .logoContainer {
+    align-self: flex-start;
+    margin-left: 0;
+  }
+  .logo {
+    margin-left: -35px;
+  }
+  .routes .loginBtn {
+    display: block;
+  }
+  .loginBtn {
+    display: none;
+  }
+}

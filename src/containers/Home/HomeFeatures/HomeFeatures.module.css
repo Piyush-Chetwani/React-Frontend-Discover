@@ -1,0 +1,107 @@
+.HomeFeatures {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.leftToRight {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20vh;
+}
+.mobileBtn {
+  display: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.topic {
+  margin-top: 30px;
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #000000;
+  text-align: center;
+}
+.HackathonImg {
+  width: 30vw;
+  height: 45vh;
+  margin-top: -50px;
+  margin-left: -20px;
+}
+.topic_orange {
+  color: #fb6304;
+}
+.content p {
+  text-align: center;
+}
+.rightToLeft {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20vh;
+}
+.ConferencesImg {
+  width: 30vw;
+  height: 45vh;
+}
+.scholarshipsImg {
+  width: 40vw;
+  height: 45vh;
+  margin-left: -20px;
+}
+@media all and (max-width: 990px) {
+  .HomeFeatures {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .leftToRight {
+    flex-direction: column;
+  }
+  .rightToLeft {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .HackathonImg {
+    margin-top: -100px;
+    width: 80%;
+  }
+  .mobileBtn {
+    display: block;
+  }
+  .desktopBtn {
+    display: none;
+  }
+  .content {
+    width: 90%;
+  }
+  .rightToLeft .content {
+    margin-left: 3%;
+  }
+  .topic {
+    font-size: 1.5em;
+  }
+  .ConferencesImg {
+    margin-left: 10vw;
+    margin-top: -10vh;
+    width: 80vw;
+    height: 45vh;
+  }
+  .scholarshipsImg {
+    margin-top: -10vh;
+    width: 80vw;
+    height: 45vh;
+    margin-left: -20px;
+  }
+}

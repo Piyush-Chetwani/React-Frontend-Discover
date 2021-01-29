@@ -1,0 +1,99 @@
+.LoginModal {
+  background: #ffffff;
+  width: 30%;
+  position: fixed;
+  left: 35%;
+  top: 6vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh 2vw;
+  padding-top: 20px;
+  z-index: 80;
+  border-radius: 5px;
+  align-self: center;
+  min-height: 50vh;
+}
+.LoginModal h2 {
+  text-transform: uppercase;
+  align-self: center;
+  letter-spacing: 0.2em;
+}
+.LoginModal form {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.form_input {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid rgb(201, 158, 158); */
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.form_input label {
+  align-self: flex-start;
+  margin-top: -1.7em;
+  background-color: #ffffff;
+  position: absolute;
+  margin-left: 2vw;
+  padding: 1px;
+}
+
+.LoginModal input {
+  width: 100%;
+  font-size: 1em;
+  margin-bottom: 20px;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  line-height: 1.5em;
+  box-sizing: border-box;
+  padding: 5px 20px;
+  outline: none;
+}
+
+
+.LoginModal input[type="submit"], .google {
+  width: 95%;
+  border-radius: 7px;
+  background-color: #fb6304;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 0px;
+}
+
+.base {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  border-top: 1px solid #000000;
+}
+.link {
+  color: #fb6304;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 3px;
+}
+@media all and (max-width: 900px) {
+  .LoginModal {
+    min-width: 60%;
+    left: 18%;
+  }
+}
+@media all and (max-width: 600px) {
+  .LoginModal {
+    min-width: 80%;
+    left: 8%;
+    right: 7%;
+  }
+}
